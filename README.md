@@ -16,7 +16,7 @@ A modern portfolio website for a Principle Product Designer, built with Next.js,
 ## Project Structure
 
 ```
-portfolio/
+joecarey-design/
 ├── app/
 │   ├── about/              # About page
 │   ├── blog/               # Blog listing and posts
@@ -56,7 +56,8 @@ portfolio/
 
 1. **Clone the repository**
    ```bash
-   cd c:\Users\joesa\Dev\joecarey-design\portfolio
+   git clone https://github.com/jjcarey/joecarey-design.git
+   cd joecarey-design
    ```
 
 2. **Install dependencies**
@@ -135,14 +136,11 @@ Create three databases in Notion with the following properties:
 
 ### Option 1: Deploy with Git (Recommended)
 
-1. **Initialize Git and push to GitHub**
+1. **Push to GitHub** (if you've made changes)
    ```bash
-   git init
    git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin YOUR_GITHUB_REPO_URL
-   git push -u origin main
+   git commit -m "Your commit message"
+   git push origin main
    ```
 
 2. **Connect to Netlify**
