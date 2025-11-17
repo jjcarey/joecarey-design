@@ -7,9 +7,8 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/case-studies", label: "Case Studies" },
-  { href: "/resume", label: "Resume" },
-  { href: "/blog", label: "Blog" },
-  { href: "/vibes", label: "Vibes" },
+  // { href: "/blog", label: "Blog" },
+  // { href: "/vibes", label: "Vibes" },
 ];
 
 export default function Navigation() {
